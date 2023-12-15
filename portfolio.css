@@ -1,0 +1,214 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: #d65353;
+}
+#digitalWorks {
+  background-color: #d65353;
+}
+#tradWorks {
+  background-color: #d65353;
+}
+.container-fluid{
+  padding: 2% 10%; 
+}
+.container {
+  padding: 8% 5%;
+  
+}
+.container1 {
+  text-align: center;
+  padding: 5%;
+}
+.card {
+  padding: 5%;
+}
+
+
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-style: bold;
+}
+h2{
+  font-family: 'Roboto Slab', sans-serif;
+  color: #4f4a4a;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  font-style: bold;
+  padding: 25px;
+  text-align: center;
+}
+h3{
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+h4{
+  background-color: #d0aeae;
+  color: #d0aeae;
+  padding: 10%;
+}
+h5{
+  font-size: large;
+}
+h6{
+  font-size: x-large;
+  text-align: center;
+  padding-top: 10%;
+
+
+}
+h7{
+  font-family: 'Poppins';
+  text-align: center;
+}
+h8{
+  font-family: 'Roboto Slab', sans-serif;
+  color: #4f4a4a;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  font-style: bold;
+  padding: 25px;
+  text-align: center;
+}
+
+p{
+  color: #000000;
+}
+.navbar {
+  padding: 0 0 5rem;
+
+}
+.navbar-brand{
+  font-family: 'Roboto Slab';
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+.navbar-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+/*download buttons*/
+.download-button {
+  margin: 10% 5% 10% 0;
+}
+
+.title-image{
+  width: 80%;
+  transform: rotate(20deg);
+  position:absolute;
+}
+
+/*features*/
+#features {
+  padding: 7% 15%;
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  z-index: 1;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 1% 10%;
+  font-size: large;
+}
+.icon:hover{
+  color: #947b7b;
+}
+
+.icon{
+  color: #ffe8d6;
+  margin-bottom: 3rem;
+}
+/*testimonials*/
+
+#testimonials {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #ffffff;
+  font-style: italic;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 50%;
+  border-radius: 50%;
+  margin: 35px;
+}
+.tester{
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Roboto Slab";
+}
+
+
+/*Press*/
+#press{
+  background-color: #ffffff;
+  text-align: center;
+}
+.press-logo{
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing {
+  padding: 80px;
+  text-align: center;
+}
+.pricing-header{
+  color: #000000;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background-color:#000000;
+  color: #ffffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
